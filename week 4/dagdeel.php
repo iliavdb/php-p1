@@ -8,11 +8,11 @@
 <body>
 <?php
 $currentHour = date("H");
-if ($currentHour >= 6 && $currentHour < 12) {
+if ($currentHour >= 6  $currentHour < 12) {
    echo "Het is ochtend.";
-} elseif ($currentHour >= 12 && $currentHour < 18) {
+} elseif ($currentHour >= 12  $currentHour < 18) {
    echo "Het is middag.";
-} elseif ($currentHour >= 18 && $currentHour < 24) {
+} elseif ($currentHour >= 18  $currentHour < 24) {
    echo "Het is avond.";
 } else {
    echo "Het is nacht.";
